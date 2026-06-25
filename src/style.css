@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+:root {
+  --blue: #00acdc;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -37,9 +41,9 @@ body {
 }
 
 .nav__link:hover {
-  color: #00acdc;
+  color: blue;
 }
 
 .is-active {
-  color: #00acdc;
+  color: blue;
 }
